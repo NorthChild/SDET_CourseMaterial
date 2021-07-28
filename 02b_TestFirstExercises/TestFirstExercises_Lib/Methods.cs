@@ -64,10 +64,6 @@ namespace TestFirstExercises
 
             return sum;
 
-
-
-
-
         }
 
         // implement this method so it returns true if input is "password"
