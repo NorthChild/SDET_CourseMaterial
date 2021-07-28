@@ -51,7 +51,6 @@ namespace TestFirstExercises
         // that are divisible by either 2 or 5
         public static int SumEvenFive(int max)
         {
-
             int sum = 0;
 
             for (int i = 0; i <= max; i++) {
@@ -59,15 +58,15 @@ namespace TestFirstExercises
                 if (i % 2 == 0 || i % 5 == 0) {
 
                     sum += i;
-                    return sum;
                 }
-
-                return sum;
+                
             }
 
-
-            
             return sum;
+
+
+
+
 
         }
 
