@@ -31,7 +31,6 @@ namespace TestFirstExercises
             double finResult = Convert.ToDouble(result);
 
             return Math.Round(finResult, 3);
-
         }
 
         // implement this method so that it returns true if num is even, otherwise false
