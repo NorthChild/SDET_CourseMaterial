@@ -32,19 +32,42 @@ namespace OperatorsApp
             //Console.WriteLine(f);
 
 
-            var daysInAWeek = 7;
-            var totalDaysToBirthday = 23;
-            var weeksToBirthday = totalDaysToBirthday / daysInAWeek;
-            var days = totalDaysToBirthday % daysInAWeek;
+            //var daysInAWeek = 7;
+            //var totalDaysToBirthday = 23;
+            //var weeksToBirthday = totalDaysToBirthday / daysInAWeek;
+            //var days = totalDaysToBirthday % daysInAWeek;
 
-            var res = EvenOdd(23);
-            Console.WriteLine(res);
+            //var res = EvenOdd(23);
+            //Console.WriteLine(res);
+
+            const int NUM_ROWS = 2;
+            const int NUM_COLS = 5;
+            bool running = true;
+            int row = 0;
+            int col = 0;
+            int spriteNo = -1;
+
+
+            while (running)
+            {
+                spriteNo = ++spriteNo % (NUM_ROWS * NUM_COLS);
+                row = spriteNo / NUM_COLS;
+                col = spriteNo / NUM_COLS;
+
+            }
+
+
         }
+
+        
 
         public static bool EvenOdd(int num) {
 
             return num % 2 == 0;
+
         }
+
+
 
 
 
