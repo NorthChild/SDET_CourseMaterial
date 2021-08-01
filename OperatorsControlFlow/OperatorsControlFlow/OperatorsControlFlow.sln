@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsApp", "OperatorsApp\OperatorsApp.csproj", "{0DADB777-4B59-4AB0-9B57-E8BE836A0094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorsApp", "OperatorsApp\OperatorsApp.csproj", "{0DADB777-4B59-4AB0-9B57-E8BE836A0094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsControlFlowTest", "TestProject1\OperatorsControlFlowTest.csproj", "{D6C67015-25D2-4182-989A-5097BDF2D219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorsControlFlowTest", "TestProject1\OperatorsControlFlowTest.csproj", "{D6C67015-25D2-4182-989A-5097BDF2D219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoneTest", "StoneTest\StoneTest.csproj", "{7E0E70D3-BCEE-4B15-95B1-B357A635F551}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D6C67015-25D2-4182-989A-5097BDF2D219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C67015-25D2-4182-989A-5097BDF2D219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C67015-25D2-4182-989A-5097BDF2D219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0E70D3-BCEE-4B15-95B1-B357A635F551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0E70D3-BCEE-4B15-95B1-B357A635F551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0E70D3-BCEE-4B15-95B1-B357A635F551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0E70D3-BCEE-4B15-95B1-B357A635F551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
