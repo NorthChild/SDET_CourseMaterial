@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using Lab_Unit_Test;
+using System;
 
 namespace AgeCheckerTest
 {
@@ -42,6 +43,14 @@ namespace AgeCheckerTest
         {
             Assert.That(Program.AvailableClassifications(age), Is.EqualTo("All films are available."));
 
+        }
+
+
+        [TestCase(-1)]
+        [TestCase(-13)]
+        public void FeedingNegativeValuesToAgeOfViewerReceivingException(int age) 
+        {
+            Assert.That(() => Program.AvailableClassifications(age), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contains("Invalid input"));
         }
 
 
